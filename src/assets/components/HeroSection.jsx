@@ -8,9 +8,9 @@ const HeroSection = () => {
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-8 place-self-center text-center sm:text-left justify-self-start transition-opacity duration-500 opacity-100 scale-100">
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-              Hello, I&apos;m{" "}
+              Hello, I&apos;m{""} <br /> Full Stack Developer
             </span>
             <br />
           </h1>
