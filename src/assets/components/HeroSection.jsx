@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import ReactLogo from "../../assets/vite.svg"
+import ReactLogo from "../img/eu.jpg"
 
 
 const HeroSection = () => {
@@ -43,7 +43,7 @@ const HeroSection = () => {
             <img
               src={ReactLogo}
               alt="hero"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-[300px] h-[300px] object-cover rounded-full"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-[400px] h-[400px] object-cover rounded-full"
             />
           </div>
         </div>
