@@ -5,33 +5,16 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
+
   {
-    id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+  id: 1,
+  title: "Landing Page - VirtualR",
+  description: "Landing Page criada a partir de um bootcamp",
+  image: "/projects/virtualr.png", 
+  tag: ["All", "Web"],
+  gitUrl: "https://github.com/davimqz/VirtualR-LP",
+  previewUrl: "https://virtual-r-lp-one.vercel.app/",
+},
 ];
 
 const ProjectsSection = () => {
@@ -55,13 +38,18 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        Meus Projetos
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
-          name="All"
+          name="Tudo"
           isSelected={tag === "All"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Full Stack"
+          isSelected={tag === "Full Stack"}
         />
         <ProjectTag
           onClick={handleTagChange}
