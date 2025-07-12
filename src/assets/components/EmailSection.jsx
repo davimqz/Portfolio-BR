@@ -3,31 +3,38 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
+    
     const data = {
       email: e.target.email.value,
-      subject: e.target.subject.value,
-      message: e.target.message.value,
+      assunto: e.target.assunto.value,
+      mensagem: e.target.mensagem.value,
     };
-    const JSONdata = JSON.stringify(data);
-    const endpoint = "/api/send";
-
-    const options = {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSONdata,
-    };
-
-    const response = await fetch(endpoint, options);
-    const resData = await response.json();
-
-    if (response.status === 200) {
-      console.log("Message sent.");
-      setEmailSubmitted(true);
+    
+    try {
+      const response = await fetch('http://localhost:3000/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+      
+      if (response.ok) {
+        console.log('Email enviado com sucesso!');
+        setEmailSubmitted(true);
+      } else {
+        throw new Error('Erro ao enviar email');
+      }
+    } catch (error) {
+      console.error('Erro:', error);
+      alert('Erro ao enviar mensagem. Tente novamente.');
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -71,34 +78,36 @@ const EmailSection = () => {
               />
             </div>
             <div className="mb-6">
-              <label htmlFor="subject" className="text-white block text-sm mb-2 font-medium">
+              <label htmlFor="assunto" className="text-white block text-sm mb-2 font-medium">
                 Assunto
               </label>
               <input
-                name="subject"
+                name="assunto"
                 type="text"
-                id="subject"
+                id="assunto"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
                 placeholder="Digite algo..."
               />
             </div>
             <div className="mb-6">
-              <label htmlFor="message" className="text-white block text-sm mb-2 font-medium">
+              <label htmlFor="mensagem" className="text-white block text-sm mb-2 font-medium">
                 Mensagem
               </label>
               <textarea
-                name="message"
-                id="message"
+                name="mensagem"
+                id="mensagem"
+                rows="4"
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
                 placeholder="Digite algo..."
               />
             </div>
             <button
               type="submit"
-              className="bg-primary-500 hover:bg-primary-600 bg-fuchsia-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              disabled={isSubmitting}
+              className="bg-primary-500 hover:bg-primary-600 bg-fuchsia-600 text-white font-medium py-2.5 px-5 rounded-lg w-full disabled:opacity-50"
             >
-              Enviar Mensagem
+              {isSubmitting ? "Enviando..." : "Enviar Mensagem"}
             </button>
           </form>
         )}
