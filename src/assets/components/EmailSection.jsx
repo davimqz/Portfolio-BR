@@ -41,7 +41,7 @@ const EmailSection = () => {
         <h5 className="text-xl font-bold text-white my-2">Vamos nos conectar!</h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           Atualmente estou em busca de novas oportunidades, minha caixa de entrada está sempre aberta.
-Seja para tirar uma dúvida ou apenas dizer oi, farei o possível para responder!
+            Seja para tirar uma dúvida ou apenas dizer oi, farei o possível para responder!
         </p>
         <div className="socials flex flex-row gap-4 text-white text-3xl">
           <a href="https://github.com/davimqz" target="_blank" rel="noopener noreferrer">

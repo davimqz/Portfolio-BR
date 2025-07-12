@@ -16,8 +16,10 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            Sou um desenvolvedor web full stack com paixão por criar aplicações web interativas e responsivas.
+            Tenho experiência com Python, JavaScript, React, HTML, CSS e sou entusiasta da WEB3 com conhecimento em Solidity.
+            Sou um aprendiz rápido e estou sempre buscando expandir meus conhecimentos e habilidades.
+            Apesar de ainda não estar atuando profissionalmente, estou em busca de um ambiente de desenvolvimento para aprender e desenvolver novas habilidades.
           </p>
 
           <div>
@@ -25,7 +27,7 @@ const HeroSection = () => {
               to="/"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-purple-500 to-pink-500 hover:bg-slate-200 text-white"
             >
-              Hire Me
+              Contrate-me
             </Link>
             <Link
               to="/"

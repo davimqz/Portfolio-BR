@@ -1,5 +1,5 @@
 import { navItems } from "../../contants"
-import { useState } from "react";
+
 
 const NavBar = () => {
   return (
