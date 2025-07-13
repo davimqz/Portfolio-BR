@@ -11,10 +11,19 @@ const projectsData = [
   title: "Landing Page - VirtualR",
   description: "Landing Page criada a partir de um bootcamp",
   image: "/projects/virtualr.png", 
-  tag: ["All", "Web"],
+  tag: ["Tudo", "Web"],
   gitUrl: "https://github.com/davimqz/VirtualR-LP",
   previewUrl: "https://virtual-r-lp-one.vercel.app/",
-},
+  },
+  {
+  id: 2,
+  title: "Portfólio Pessoal",
+  description: "Portfólio ",
+  image: "/projects/portfolio.png", 
+  tag: ["Tudo", "Web"],
+  gitUrl: "https://github.com/davimqz/Portfolio-BR",
+  previewUrl: "https://portfolio-br-eosin.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {

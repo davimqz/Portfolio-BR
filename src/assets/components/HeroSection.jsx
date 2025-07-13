@@ -16,10 +16,9 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Sou um desenvolvedor web full stack com paixão por criar aplicações web interativas e responsivas.
-            Tenho experiência com Python, JavaScript, React, HTML, CSS e sou entusiasta da WEB3 com conhecimento em Solidity.
-            Sou um aprendiz rápido e estou sempre buscando expandir meus conhecimentos e habilidades.
-            Apesar de ainda não estar atuando profissionalmente, estou em busca de um ambiente de desenvolvimento para aprender e desenvolver novas habilidades.
+            Sou um estudante de Ciências da Computação do 4º Período apaixonado por criar aplicações web interativas e responsivas. 
+            Tenho conhecimento em Python, JavaScript, React, Django, Tailwind, HTML e CSS. Sou entusiasta da Web3 com familiaridade em Solidity. 
+            Estou em busca de um ambiente de desenvolvimento para aprender e adquirir novas habilidades
           </p>
 
           <div>
