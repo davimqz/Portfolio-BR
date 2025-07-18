@@ -3,12 +3,15 @@ import Footer from "./assets/components/Footer";
 import ProjectsSection from "./assets/components/ProjectsSection";
 import EmailSection from "./assets/components/EmailSection";
 import NavBar from "./assets/components/NavBar";
+import Skills from "./assets/components/Skills";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
       <NavBar></NavBar>
       <div className="container mt-24 mx-auto px-12 py-4">
         <HeroSection />
+        <Skills></Skills>
         <ProjectsSection />
         <EmailSection></EmailSection>
       </div>
