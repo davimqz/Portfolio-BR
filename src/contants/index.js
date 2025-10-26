@@ -25,7 +25,7 @@ export const skills = [
       {
         name: "Tailwind",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/tailwindcss/tailwindcss-original.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/640px-Tailwind_CSS_Logo.svg.png",
       },
     ],
   },
@@ -48,14 +48,14 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
       {
-        name: "Django",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/django/django-plain.svg",
-      },
-      {
         name: "Solidity",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/solidity/solidity-original.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg",
+      },
+       {
+        name: "Node",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png  ",
       },
     ],
   },

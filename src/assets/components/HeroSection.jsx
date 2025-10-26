@@ -16,9 +16,10 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Sou um estudante de Ciências da Computação do 4º Período apaixonado por criar aplicações web interativas e responsivas. 
-            Tenho conhecimento em Python, JavaScript, React, Django, Tailwind, HTML e CSS. Sou entusiasta da Web3 com familiaridade em Solidity. 
-            Estou em busca de um ambiente de desenvolvimento para aprender e adquirir novas habilidades
+            Sou estudante de Ciências da Computação e desenvolvedor Web3, apaixonado por criar aplicações interativas, descentralizadas e orientadas por dados.
+            Como fundador da Blockchaintech Brazil, estou desenvolvendo DApps que utilizam a tecnologia blockchain como base para inovação e geração de valor.
+            Meu stack de tecnologias inclui Solidity, Python, JavaScript, Node.js, React, Tailwind, HTML e CSS.
+            Estou motivado para colaborar em um ambiente que me desafie a crescer e explorar novas tecnologias.
           </p>
 
           <div>
