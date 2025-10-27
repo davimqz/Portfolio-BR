@@ -44,7 +44,7 @@ const projectsData = [
   },
   {
   id: 5,
-  title: "GIRO",
+  title: "Academia Do Futebol",
   description: "Landing Page da plataforma que tokeniza jovens promessas do futebol",
   image: "/projects/oficina-cover.png", 
   tag: ["Tudo", "Web3"],

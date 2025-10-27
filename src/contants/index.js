@@ -55,48 +55,23 @@ export const skills = [
        {
         name: "Node",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png  ",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Node.js_logo_2015.svg/640px-Node.js_logo_2015.svg.png",
       },
     ],
   },
-  /*
-  {
-    title: "Android",
-    skills: [
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
-        name: "Kotlin",
-        image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
-    ],
-  },*/
+  
   {
     title: "Others",
     skills: [
       {
         name: "Git",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/git/git-original.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Git_Icon.svg/640px-Git_Icon.svg.png",
       },
       {
         name: "GitHub",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/github/github-original.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/640px-Octicons-mark-github.svg.png",
       },
       {
         name: "VS Code",
@@ -106,17 +81,17 @@ export const skills = [
       {
         name: "Figma",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/figma/figma-original.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Figma.svg/640px-Figma.svg.png",
       },
       {
         name: "Notion",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/notion/notion-original.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/640px-Notion-logo.svg.png",
       },
       {
         name: "Trello",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/trello/trello-original.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Feather-logos-trello.svg/640px-Feather-logos-trello.svg.png",
       },
     ],
     
